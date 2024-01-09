@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
 }
+ /* **********HEADER START*********************** */
 
 .header {
     width: 100%;
@@ -100,7 +101,69 @@ body {
     font-size: 14px;
     margin-left: 65px;
 }
-/* GET IN TOUCH */
+/* *************HEADER END*********************** */
+
+
+/* ************MY PROJECTS START ******************* */
+
+.work{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.work input{
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    color: greenyellow;
+    text-align: center;
+}
+.left1{
+    width: 131px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    position: relative;
+    left: 10px;
+}
+.left1 h1{
+    font-size: 16px;
+}
+.project{
+    border-top: 1px dashed #ccc;
+}
+.categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: white;
+    box-shadow: #ccc;
+}
+
+.row p{
+    margin-left: 74px;
+}
+
+.row span{
+    font-size: 20px;
+}
+
+.row input{
+    background-color: rgb(187, 187, 236);
+    width: 100px;
+    height: 20px;
+    border:1px solid #ccc;
+}
+
+/* ******************MY PROJECTS END************************** */
+
+/**************GET IN TOUCH START****************/
 .contact-container {
     width: 100%;
     margin: 0 auto; 
@@ -154,19 +217,12 @@ body {
 .contact-form input[type="submit"]:hover {
     background-color: #0056b3;
 }
-.contact-info {
-    margin-top: 30px;
-    text-align: center;
-}
 
-.contact-info img {
-    margin-top: 900px;
-}
-.contact-info p {
-    margin-bottom: 5px;
-}
 
-/*  */
+/* ************GET IN TOUCH END********************* */
+
+/*********************FOOTER START ********************/
+
 .footer {
 	display: flex;
 	justify-content: space-evenly;
@@ -223,64 +279,9 @@ body {
 .h ul .i {
     color: blue;
 }
+/* ***************FOOTER END********************* */
 
-/* ************MY PROJECTS******************* */
 
-
-.worker{
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-top: 50px;
-}
-.worker input{
-    background-color: #ccc;
-    border: 1px solid #ccc;
-    color: greenyellow;
-    text-align: center;
-}
-.left1{
-    width: 131px;
-    height: 42px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 30px;
-    position: relative;
-    left: 10px;
-}
-.left1 h1{
-    font-size: 16px;
-}
-.project{
-    border-top: 1px dashed #ccc;
-}
-.categories {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    padding: 10px;
-    background-color: white;
-    box-shadow: #ccc;
-}
-
-.row p{
-    margin-left: 74px;
-}
-
-.row span{
-    font-size: 20px;
-}
-
-.row input{
-    background-color: rgb(187, 187, 236);
-    width: 100px;
-    height: 20px;
-    border:1px solid #ccc;
-}
 
 
 
